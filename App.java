@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>CI/CD Demo</title>
-<style>
-body{
-text-align:center;
-font-family:Times New Roman;
-background-color:#af0d0d;
+public class App {
+ public static void main(String[] args) throws Exception {
+ System.out.println("Java CI/CD Application Started...");
+ while (true) {
+ Thread.sleep(5000);
+ System.out.println("Hello from Java CI/CD Pipeline!");
+ }
+ }
 }
-h1{
-color:#0ef777;
-}
-</style>
-</head>
-<body>
-<h1>CI/CD Pipeline Working</h1>
-<h2>Deployed using Jenkins + Docker + Kubernetes</h2>
-<p>This webpage is automatically deployed using a CI/CD pipeline.</p>
-</body>
-</html>
